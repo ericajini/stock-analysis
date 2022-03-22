@@ -1,3 +1,13 @@
+Sub MacroCheck()
+
+ Dim testMessage As String
+ 
+ testMessage = "Hello World!"
+ 
+ MsgBox (testMessage)
+ 
+End Sub
+
 Sub DQAnalysis()
     Worksheets("DQ Analysis").Activate
 
@@ -17,6 +27,7 @@ Sub DQAnalysis()
 
     'Establish the number of rows to loop over
     rowStart = 2
+    'rowEnd code taken from https://stackoverflow.com/questions/18088729/row-count-where-data-exists
     rowEnd = Cells(Rows.Count, "A").End(xlUp).Row
 
     'loop over all the rows
