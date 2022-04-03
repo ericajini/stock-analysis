@@ -97,7 +97,7 @@ The goal of this project was to refactor code I put together in VBA to analyze s
 
 ### Stock Performance: 
 
-In 2017 every stock ticker had a positive return outside of TERP, compared to 2018 where every stock outside of ENPH and RUN had a negative return.
+In 2017 every stock ticker had a positive return outside of TERP, compared to 2018 where every stock outside of ENPH and RUN had a negative return. The the total daily volume was also higher in 2017. Based on this analysis, ENPH and RUN seem to be the safest pick as they were able to still see a return when it seemed like all other stocks were headed the wrong way. 
 
 ![2017_Results](https://github.com/ericajini/stock-analysis/blob/main/ASA_2017.png)
 
@@ -106,9 +106,19 @@ In 2017 every stock ticker had a positive return outside of TERP, compared to 20
 
 ### Execution Times: 
 
+After refactoring the code, the analysis ran .367 seconds faster than it did in the initial analysis. With larger sets of data this could help reduce the run time even more. 
+
+![Refactored_Results](https://github.com/ericajini/stock-analysis/blob/main/timer_refactored.png)
+
+![Initial_Results](https://github.com/ericajini/stock-analysis/blob/main/timer_initial.png)
+
+
 ## Summary: 
 
 ### What are the advantages or disadvantages of refactoring code?
 
+I think one of the main advantages of refactoring code demonstrated above is that you are able to make your code run more efficiently. With larger data sets this will become much more important. Outside of that, another advantage of refactoring code is that it is "cleaner", making it easier to read and understand what is going on. This could also make a big difference when trying to maintain/ make changes to the code in the future; also if someone else needs to re-use/ update the code. 
 
-### How do these pros and cons apply to refactoring the original VBA script?
+I think the main disadvantages of refactoring code is that it can be time consuming. When working through this project I found it difficult at first to understand how to go about refactoring the code so that it was more efficient and feel like it will have to be approached slightly different for every project, leading to the same thing. This could put you in a situation where you are stuck and not sure what to do. With that said, I think it's important to have a reason for refactoring code. If it is a small data set and the macro is not going to be used/ re-used in the future, it may not be worth it to refactor the code.  
+
+
