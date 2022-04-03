@@ -99,18 +99,18 @@ The goal of this project was to refactor code I put together in VBA to analyze s
 
 In 2017 every stock ticker had a positive return outside of TERP, compared to 2018 where every stock outside of ENPH and RUN had a negative return. The the total daily volume was also higher in 2017. Based on this analysis, ENPH and RUN seem to be the safest pick as they were able to still see a return when it seemed like all other stocks were headed the wrong way. 
 
-![2017_Results](https://github.com/ericajini/stock-analysis/blob/main/ASA_2017.png)
+![2017_Results](https://github.com/ericajini/stock-analysis/blob/main/README_Screenshots/ASA_2017.png)
 
-![2018_Results](https://github.com/ericajini/stock-analysis/blob/main/ASA_2018.png)
+![2018_Results](https://github.com/ericajini/stock-analysis/blob/main/README_Screenshots/ASA_2018.png)
 
 
 ### Execution Times: 
 
 After refactoring the code, the analysis ran .367 seconds faster than it did in the initial analysis. With larger sets of data this could help reduce the run time even more. 
 
-![Refactored_Results](https://github.com/ericajini/stock-analysis/blob/main/timer_refactored.png)
+![Refactored_Results](https://github.com/ericajini/stock-analysis/blob/main/README_Screenshots/timer_refactored.png)
 
-![Initial_Results](https://github.com/ericajini/stock-analysis/blob/main/timer_initial.png)
+![Initial_Results](https://github.com/ericajini/stock-analysis/blob/main/README_Screenshots/timer_initial.png)
 
 
 ## Summary: 
