@@ -2,9 +2,11 @@
 
 ## Overview of Project:
 
-The goal of this project was to refactor code I put together in VBA to analyze stock information from 2017 and 2018, faster. I did this with the idea in mind of re-using this code in the future on larger data sets. The analysis runs through the data 1 time instead of running through ticker by ticker and will provide data regarding the Total Daily Volume for each stock ticker and the Return, depending on which year you enter when initiating the analysis. 
+The goal of this project was to refactor code I put together in VBA to analyze stock information from 2017 and 2018, faster. I did this with the idea in mind of re-using this code in the future on larger data sets. The analysis runs through the data 1 time instead of running through ticker by ticker and will provide data regarding the Total Daily Volume for each stock ticker and the Return, depending on which year you enter when initiating the analysis. There is also a timer built in to see how long it takes the code to run and section that formats the data in the excel sheet in the same sub routine.  
 
 ## Results:
+
+### Refactored Code: 
     Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
     Dim endTime  As Single
@@ -95,7 +97,12 @@ The goal of this project was to refactor code I put together in VBA to analyze s
 
 ### Stock Performance: 
 
-In 2017 every stock ticker had a positive return outside of TERP, compared to 2018 where every stock outside of ENPH and RUN had a negative return. 
+In 2017 every stock ticker had a positive return outside of TERP, compared to 2018 where every stock outside of ENPH and RUN had a negative return.
+
+![2017_Results](https://github.com/ericajini/stock-analysis/blob/main/ASA_2017.png)
+
+![2018_Results](https://github.com/ericajini/stock-analysis/blob/main/ASA_2018.png)
+
 
 ### Execution Times: 
 
