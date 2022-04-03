@@ -108,8 +108,10 @@ In 2017 every stock ticker had a positive return outside of TERP, compared to 20
 
 After refactoring the code, the analysis ran .367 seconds faster than it did in the initial analysis. With larger sets of data this could help reduce the run time even more. 
 
+#### Refactored Results:
 ![Refactored_Results](https://github.com/ericajini/stock-analysis/blob/main/README_Screenshots/timer_refactored.png)
 
+#### Initial Results:
 ![Initial_Results](https://github.com/ericajini/stock-analysis/blob/main/README_Screenshots/timer_initial.png)
 
 
